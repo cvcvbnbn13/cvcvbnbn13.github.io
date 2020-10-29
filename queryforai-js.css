@@ -6,6 +6,7 @@
 
         .item{
             width: 80%;
+            filter: blur(0);
         }
         .backtoindex{
             border : 1px solid #000;
