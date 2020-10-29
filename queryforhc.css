@@ -24,6 +24,22 @@
 
 @media (max-width: 591px){
     .item{
-        width: 80%;
+        width: 450px !important;
+        height: 500px !important;
+    }
+
+    .item img{
+        height: 400px !important;
+    }
+}
+
+@media (max-width: 471px){
+    .item{
+        width: 350px !important;
+        height: 400px !important;
+    }
+
+    .item img{
+        height: 300px !important;
     }
 }

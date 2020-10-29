@@ -1,0 +1,47 @@
+@media only screen and (max-width: 1023px){
+        .container{
+            flex-wrap: wrap;
+            flex-shrink: 1;
+        }
+
+        .item{
+            width: 80%;
+        }
+        .backtoindex{
+            border : 1px solid #000;
+            padding: 5px;
+            margin: 20px;
+            background-color: #fff;
+            font-size: 16px;
+            position: relative;
+            bottom: 0;
+            width: 30%;
+            text-align: center;
+        }
+
+        .item h3{
+            font-size: 24px;
+        }
+
+        a{
+            color: #000;
+        }
+}
+
+@media only screen and (max-width: 471px){
+    .item{
+        width: 80% !important;
+        height: 500px !important;
+    }
+    .item img{
+        height: 400px !important;
+    }
+
+    .item:nth-of-type(1) img{
+        margin-top: 20px !important;
+    }
+
+    .item:nth-of-type(1) h3{
+        padding: 0 !important;
+    }
+}
