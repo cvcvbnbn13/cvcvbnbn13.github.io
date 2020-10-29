@@ -1,0 +1,235 @@
+@media only screen and (max-width: 1200px){
+    header .hero-text-box{
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    .row{
+        padding: 0 2%;
+    }
+
+    .section-steps{
+        padding: 50px 0;
+    }
+
+    .steps-box:last-child{
+        margin-top: 30px;
+    }
+
+
+    .section-steps .works-step:first-of-type{
+        margin-bottom: 80px;
+    }
+
+    .section-steps .works-step:last-of-type{
+        margin-bottom: 60px;
+    }
+
+    .section-form .contact-form{
+        width: 80%;
+    }
+}
+
+
+
+@media only screen and (max-width: 1023px){
+    body{
+        font-size: 18px;
+    }
+    section{
+        padding: 50px 0;
+    }
+
+    .section-steps .steps-box{
+        margin-top: 10px;
+    }
+    .section-steps .works-step{
+        margin-bottom: 40px;
+    }
+
+    .section-steps .works-step:first-of-type{
+        margin-top: 20px;
+        margin-bottom: 80px;
+    }
+
+    .section-steps .works-step:last-of-type{
+        margin-bottom: 60px;
+    }
+
+    .section-steps .app-screen{
+        width: 50%;
+    }
+
+    .icon-small{
+        width: 16px;
+        margin-right: 5px;
+    }
+
+    .section-cities .city-feature{
+        font-size: 90%;
+    }
+
+    .section-comments blockquote{
+        font-size: 17px;
+    }
+
+    .section-plan .plan-box{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .section-plan .plan-box .plan-price{
+        font-size: 200%;
+    }
+
+    .section-form .contact-form{
+        width: 80%;
+    }
+
+    footer{
+        padding: 10px 10px;
+    }
+}
+
+
+@media only screen and (max-width: 767px){
+    body{
+        font-size: 16px;
+    }
+    section{
+        padding: 50px 0;
+    }
+    .row, header .hero-text-box{
+        padding: 0 4%;
+    }
+
+    .col{
+        width: 100%;
+        margin: 1% 0;
+    }
+
+    header .main-nav{
+        display: none;
+    }
+    header .mobile-nav-icon{
+        display: inline-block;
+    }
+
+    header .sticky-nav .main-nav {
+        margin-top: 0;
+    }
+
+    header .main-nav{
+        float: left;
+        margin-left: 25px;
+    }
+
+    header .main-nav li{
+        display: flex;
+        flex-direction: column;
+    }
+
+    header .main-nav li a:link,
+    header .main-nav li a:visited{
+        border: 0;
+        height: 40px;
+    }
+
+    .sticky-nav .main-nav li a:link,
+    .sticky-nav .main-nav li a:visited{
+        padding: 20px 0 10px;
+    }
+
+    .sticky-nav .mobile-nav-icon{
+        margin-top: 0px;
+    }
+
+    .sticky-nav .mobile-nav-icon{
+        margin-top: 10px;
+        border-bottom: 0;
+    }
+
+    .sticky-nav .mobile-nav-icon ion-icon{
+        color: #555;
+    }
+
+    .sticky-nav .main-nav{
+        line-height: 0;
+        margin-left: 0;
+    }
+
+
+    h1{
+        font-size: 180%;
+    }
+
+    h2{
+        font-size: 150%;
+    }
+
+    .se-features{
+        padding: 50px 0;
+    }
+
+    .se-features .long-copy{
+        width: 100%;
+        margin-left: 0;
+    }
+    
+    .section-meals{
+        padding: 50px 0;
+    }
+
+    .section-meals .showcase li{
+        width: 50%;
+    }
+
+    .section-steps .steps-box:first-child{
+        padding: 0;
+        text-align: center;
+    }
+
+    .section-steps .works-step:first-of-type,
+    .section-steps .works-step:last-of-type{
+        margin-bottom: 40px;
+    }
+
+    .section-comments blockquote{
+        height: 200px;
+        margin-bottom: 25px;
+    }
+    .section-comments blockquote cite{
+        bottom: 25px;
+    }
+
+    .section-plan{
+        text-align: center;
+    }
+    .section-plan li{
+        text-indent: 1em;
+        width: 180px;
+        margin: auto;
+        text-align: left;
+    }
+
+    .section-form .contact-form{
+        width: 100%;
+    }
+    footer{
+        text-align: center;
+    }
+
+    footer .footer-nav{
+        width: 100%;
+        /* margin-left: 25%; */
+    }
+
+    footer .sns-links{
+        width: 100%;
+        text-align: center;
+    }
+
+    footer .copyright{
+        margin: 0;
+    }
+}

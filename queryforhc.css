@@ -1,0 +1,25 @@
+@media (max-width: 1200px){
+        .container{
+            /* flex-wrap: wrap; */
+            justify-content: center;
+            align-items: center;
+        }
+        .backtoindex{
+            border : 1px solid #000;
+            padding: 5px;
+            margin: 20px;
+            background-color: #fff;
+            width: 50%;
+            text-align: center;
+        }
+
+        .backtoindex a{
+            color: #000;
+        }
+}
+
+@media (max-width: 591px){
+    .item{
+        width: 80%;
+    }
+}
