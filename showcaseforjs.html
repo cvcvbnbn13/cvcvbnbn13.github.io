@@ -51,6 +51,10 @@
             justify-content: center;
             transition: .5s;
         }
+        span{
+            font-size: 16px;
+            font-weight: 100;
+        }
 
         .item h3{
             font-size: 36px;
@@ -70,6 +74,15 @@
             border-radius: 50%;
             transition: .5s;
         }
+
+        .item:nth-of-type(1) img{
+            margin-bottom: 10px;
+        }
+
+        .item:nth-of-type(1) h3{
+            padding: 10px;
+        }
+
         .container .backtoindex{
             width: 60%;
             text-align: center;
@@ -84,19 +97,19 @@
 <body>
     <div class="container">
         <div class="item">
-            <a href="./3d-card-effect-master/index.html">
+            <a href="./3d-card-effect-master/index.html" target="_blank">
                 <img src="https://picsum.photos/300/300?random=15" alt="">
             </a>
-            <h3>3D名片</h3>
+            <h3>3D名片<br><span>請用電腦觀看以獲得最佳體驗</span></h3>
         </div>
         <div class="item">
-            <a href="./Music Player/index.html">
+            <a href="./Music Player/index.html" target="_blank">
                 <img src="./imgforjs/musicplayer.png" alt="">
             </a>
             <h3>小小音樂播放器</h3>
         </div>
         <div class="item">
-            <a href="./RPS/index.html">
+            <a href="./RPS/index.html" target="_blank">
                 <img src="./imgforjs/rps.png" alt="">
             </a>
             <h3>猜拳遊戲</h3>
