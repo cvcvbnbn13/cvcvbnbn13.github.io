@@ -14,7 +14,7 @@
         }
 
         a{
-            color: #000;
+            color: #000 !important;
         }
 
         .item:hover{
@@ -22,7 +22,7 @@
         }
 }
 
-@media (max-width: 591px){
+@media (max-width: 575px){
     .item{
         width: 450px !important;
         height: 500px !important;
