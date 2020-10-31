@@ -34,6 +34,10 @@
         height: 500px !important;
     }
     .item img{
-        height: 400px !important;
+        height: 350px !important;
+    }
+
+    .item h3{
+        font-size: 18px !important;
     }
 }
