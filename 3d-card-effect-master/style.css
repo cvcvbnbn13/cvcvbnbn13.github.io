@@ -14,6 +14,10 @@ body{
   perspective: 1000px;
 }
 
+button:focus{
+  outline: none
+}
+
 .container{
   /* background: lightblue; */
   width: 50%;
@@ -32,14 +36,14 @@ body{
   box-shadow: 0 20px 20px rgba(0,0,0,0.2), 0px 0px 50px rgba(0,0,0,0.2);
 }
 
-.sneaker{
+.headPhoto{
   min-height: 35vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.sneaker img{
+.headPhoto img{
   width: 20rem;
   border-radius: 50%;
   z-index: 2;
@@ -59,13 +63,13 @@ body{
   transition: all 0.75s ease-out;
 }
 
-.sizes{
+.traits{
   display: flex;
   justify-content: space-between;
   transition: all 0.75s ease-out;
 }
 
-.sizes button{
+.traits button{
   padding: 0.5rem 2rem;
   background: none;
   border: none;
@@ -76,16 +80,16 @@ body{
   color: #585858;
 }
 
-.sizes button.active{
+.traits button:hover{
   background: #585858;
   color: #fff;
 }
 
-.purchase{
+.follow{
   margin-top: 5rem;
 }
 
-.purchase button{
+.follow button{
   width: 100%;
   padding: 1rem 0;
   background: #f54642;
@@ -96,4 +100,8 @@ body{
   font-weight: bolder;
   transition: all 0.75s ease-out;
 
+}
+
+.follow button:hover{
+  background: #c22826;
 }
