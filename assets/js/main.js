@@ -29,7 +29,7 @@ function scrollActive(){
 
   sections.forEach((n)=>{
     const sectionH = n.offsetHeight
-    const sectionTop = n.offsetTop - 50
+    const sectionTop = n.offsetTop -50
     const sectionId = n.getAttribute('id')
 
     if(scrollY > sectionTop && scrollY <= sectionTop + sectionH){

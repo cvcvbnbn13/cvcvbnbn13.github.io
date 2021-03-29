@@ -340,6 +340,10 @@ img {
   transition: .3s;
 }
 
+.works__description {
+  display: none;
+}
+
 .works__link {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -354,6 +358,7 @@ img {
 .works__title {
   font-size: 1.25rem;
   color: #fff;
+  font-weight: bold;
 }
 
 .footer {
@@ -400,6 +405,12 @@ img {
   .works__container {
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
+  }
+  .works__description {
+    display: block;
+    text-align: center;
+    color: #fff;
+    font-size: .875rem;
   }
   .footer {
     background: none;
