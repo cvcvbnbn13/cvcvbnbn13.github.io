@@ -130,6 +130,7 @@ img {
   font-weight: 700;
   -webkit-transition: .3s;
   transition: .3s;
+  font-size: 1.5rem;
 }
 
 .nav__link:hover {
@@ -195,7 +196,7 @@ img {
 }
 
 .home__profession {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   color: #253f3f;
   margin-bottom: 2rem;
 }
