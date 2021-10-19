@@ -3,7 +3,7 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: 'Noto Sans TC', sans-serif;
+  font-family: "Noto Sans TC", sans-serif;
 }
 
 html {
@@ -50,7 +50,7 @@ img {
   color: #1c2f2f;
   text-align: center;
   font-weight: 700;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
 .bd-grid {
@@ -61,7 +61,7 @@ img {
       grid-template-columns: 100%;
   -webkit-column-gap: 1.5rem;
           column-gap: 1.5rem;
-  width: calc( 100% - 2rem);
+  width: calc(100% - 2rem);
   margin: 0 auto;
 }
 
@@ -103,8 +103,8 @@ img {
       -ms-flex-align: center;
           align-items: center;
   background-color: #2f4f4f;
-  -webkit-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .nav__close {
@@ -128,8 +128,8 @@ img {
   text-transform: uppercase;
   color: #fff;
   font-weight: 700;
-  -webkit-transition: .3s;
-  transition: .3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
   font-size: 1.5rem;
 }
 
@@ -214,9 +214,9 @@ img {
   font-size: 1.1rem;
   border-radius: 50%;
   padding: 0.5rem;
-  margin: 0 .5rem;
-  -webkit-transition: .3s;
-  transition: .3s;
+  margin: 0 0.5rem;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
   cursor: pointer;
 }
 
@@ -233,7 +233,7 @@ img {
 
 .about__img {
   width: 150px;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   margin: 0 auto;
 }
 
@@ -276,7 +276,12 @@ img {
 .skills__container {
   row-gap: 1.5rem;
   color: #253f3f;
-  margin-bottom: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 .skills__subtitle {
@@ -308,7 +313,7 @@ img {
 .works__img {
   position: relative;
   overflow: hidden;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
           box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -336,9 +341,9 @@ img {
       -ms-flex-align: center;
           align-items: center;
   background: rgba(47, 79, 79, 0.7);
-  border-radius: .5rem;
-  -webkit-transition: .3s;
-  transition: .3s;
+  border-radius: 0.5rem;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .works__description {
@@ -411,7 +416,7 @@ img {
     display: block;
     text-align: center;
     color: #fff;
-    font-size: .875rem;
+    font-size: 0.875rem;
   }
   .footer {
     background: none;
@@ -419,7 +424,7 @@ img {
   .footer__container {
     background-color: #1c2f2f;
     padding: 3rem 0;
-    border-radius: .5rem;
+    border-radius: 0.5rem;
   }
 }
 

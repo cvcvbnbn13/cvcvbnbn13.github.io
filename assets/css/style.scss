@@ -9,19 +9,18 @@ $mainColor-light: #395f5f;
 // $mainColor-lighten: #426f6f;
 $mainColor-lighten: #4c7f7f;
 
-
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Noto Sans TC', sans-serif;
+  font-family: "Noto Sans TC", sans-serif;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
-body{
+body {
   font-size: 1rem;
   font-weight: normal;
   background-color: #fff;
@@ -29,67 +28,64 @@ body{
   line-height: 1.5;
 }
 
-ul{
+ul {
   list-style: none;
 }
 
-a{
+a {
   text-decoration: none;
   color: #000;
 }
 
-img{
+img {
   max-width: 100%;
   height: auto;
   display: block;
 }
 
-
-
-
-.section{
+.section {
   padding: 4rem 0 2rem;
-  &__title{
+  &__title {
     font-size: 2rem;
     color: $mainColor;
     margin-bottom: 1.5rem;
     text-align: center;
   }
-  &__subtitle{
+  &__subtitle {
     display: block;
     font-size: 0.75rem;
     color: $mainColor-darken;
     text-align: center;
     font-weight: 700;
-    margin-bottom: .5rem;
+    margin-bottom: 0.5rem;
   }
 }
 
-.bd-grid{
+.bd-grid {
   max-width: 1280px;
   display: grid;
   grid-template-columns: 100%;
   column-gap: 1.5rem;
-  width: calc( 100% - 2rem );
+  width: calc(100% - 2rem);
   margin: 0 auto;
 }
 
-.header{
+.header {
   width: 100%;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 100;
   background-color: $mainColor;
-  box-shadow: 0 2px 4px rgba(0,0,0,.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.nav{
+.nav {
   height: 2.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  &__menu{
+  &__menu {
     position: fixed;
     top: 0;
     left: -100%;
@@ -99,9 +95,9 @@ img{
     display: flex;
     align-items: center;
     background-color: $mainColor;
-    transition: .5s;
+    transition: 0.5s;
   }
-  &__close{
+  &__close {
     position: absolute;
     top: 1rem;
     right: 1rem;
@@ -109,52 +105,52 @@ img{
     color: $mainColor-dark;
     cursor: pointer;
   }
-  &__show{
+  &__show {
     left: 0;
   }
-  &__item{
+  &__item {
     margin-bottom: 2rem;
   }
-  &__link{
+  &__link {
     text-transform: uppercase;
     color: #fff;
     font-weight: 700;
-    transition: .3s;
+    transition: 0.3s;
     font-size: 1.5rem;
-    &:hover{
+    &:hover {
       color: $mainColor-darken;
     }
   }
-  &__toggle{
+  &__toggle {
     color: $mainColor-lighten;
     font-size: 1.5rem;
     cursor: pointer;
   }
-  &__active{
+  &__active {
     color: $mainColor-darken;
   }
-  &__list{
+  &__list {
     letter-spacing: 1.2px;
   }
-  &__logo{
+  &__logo {
     width: 2.5rem;
     height: 2.5rem;
   }
 }
 
-.home{
-  &__container{
+.home {
+  &__container {
     height: 100vh;
     align-items: center;
   }
-  &__data{
+  &__data {
     display: flex;
     flex-direction: column;
     align-items: center;
     height: max-content;
     text-align: center;
   }
-  &__img{
+  &__img {
     width: 250px;
     height: 250px;
     background-color: $mainColor;
@@ -162,95 +158,95 @@ img{
     overflow: hidden;
     margin-bottom: 1rem;
   }
-  &__title{
+  &__title {
     font-size: 2.5rem;
     color: $mainColor;
     font-weight: 700;
   }
-  &__profession{
+  &__profession {
     font-size: 1.25rem;
     color: $mainColor-dark;
     margin-bottom: 2rem;
   }
-  &__social{
+  &__social {
     margin-bottom: 5rem;
-    &-link{
+    &-link {
       display: inline-flex;
       background-color: $mainColor;
       color: #fff;
       font-size: 1.1rem;
       border-radius: 50%;
       padding: 0.5rem;
-      margin: 0 .5rem;
-      transition: .3s;
+      margin: 0 0.5rem;
+      transition: 0.3s;
       cursor: pointer;
     }
   }
 }
 
-.about{
-  &__container{
+.about {
+  &__container {
     row-gap: 1.5rem;
   }
-  &__description{
+  &__description {
     text-align: justify;
     margin-bottom: 2rem;
     letter-spacing: 1.2px;
     line-height: 2;
   }
-  &__img{
+  &__img {
     width: 150px;
-    border-radius: .5rem;
+    border-radius: 0.5rem;
     margin: 0 auto;
   }
-  &__information{
+  &__information {
     margin-bottom: 2rem;
-    &-title{
+    &-title {
       color: $mainColor-dark;
       margin-bottom: 1rem;
     }
-    &-data{
+    &-data {
       display: flex;
       align-items: center;
       padding-left: 1.5rem;
       margin-bottom: 1.5rem;
     }
-    &-icon{
+    &-icon {
       font-size: 1.5rem;
       color: $mainColor;
       margin-right: 2rem;
     }
-    &-company{
+    &-company {
       display: block;
       font-weight: 600;
       font-size: 1.25rem;
     }
-    &-subtitle{
-      &-small{
+    &-subtitle {
+      &-small {
         font-size: 0.75rem;
       }
     }
   }
 }
 
-
-.skills{
-  &__container{
+.skills {
+  &__container {
     row-gap: 1.5rem;
     color: $mainColor-dark;
-    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-evenly;
   }
-  &__subtitle{
+  &__subtitle {
     color: $mainColor-dark;
     margin-bottom: 1rem;
     text-align: center;
   }
-  &__data{
+  &__data {
     position: relative;
     display: flex;
     margin: 0 1rem 2rem;
   }
-  &__bar{
+  &__bar {
     position: absolute;
     bottom: -1rem;
     height: 0.25rem;
@@ -259,20 +255,20 @@ img{
   }
 }
 
-.works{
-  &__container{
+.works {
+  &__container {
     row-gap: 1.5rem;
   }
-  &__img{
+  &__img {
     position: relative;
     overflow: hidden;
-    border-radius: .5rem;
+    border-radius: 0.5rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    &:hover .works__data{
+    &:hover .works__data {
       bottom: 0;
     }
   }
-  &__data{
+  &__data {
     position: absolute;
     bottom: -100%;
     width: 100%;
@@ -281,14 +277,14 @@ img{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: rgba(47, 79, 79, .7);
-    border-radius: .5rem;
-    transition: .3s;
+    background: rgba(47, 79, 79, 0.7);
+    border-radius: 0.5rem;
+    transition: 0.3s;
   }
-  &__description{
+  &__description {
     display: none;
   }
-  &__link{
+  &__link {
     display: inline-flex;
     font-size: 1.5rem;
     background-color: $mainColor-lighten;
@@ -296,99 +292,100 @@ img{
     padding: 0.5rem;
     margin-bottom: 1rem;
   }
-  &__title{
+  &__title {
     font-size: 1.25rem;
     color: #fff;
     font-weight: bold;
   }
 }
 
-
-.footer{
+.footer {
   background-color: $mainColor-darken;
   color: #fff;
   text-align: center;
   padding: 2rem 0;
-  &__title{
+  &__title {
     font-size: 1.5rem;
     margin-bottom: 1rem;
   }
-  &__description{
+  &__description {
     margin-bottom: 1rem;
   }
 }
 
-@media screen and (min-width: 768px){
-  .nav__menu{
+@media screen and (min-width: 768px) {
+  .nav__menu {
     width: 20%;
   }
-  .about{
-    &__container{
+  .about {
+    &__container {
       grid-template-columns: repeat(2, 1fr);
     }
-    &__data{
+    &__data {
       text-align: initial;
     }
-    &__description{
+    &__description {
       margin-bottom: 2rem;
     }
-    &__img{
+    &__img {
       width: 300px;
       height: 300px;
     }
-    &__information{
+    &__information {
       padding-left: 4rem;
     }
   }
-  .skills{
-    &__container{
-      grid-template-columns: repeat(3,1fr);
+  .skills {
+    &__container {
+      grid-template-columns: repeat(3, 1fr);
     }
   }
-  .works{
-    &__container{
+  .works {
+    &__container {
       grid-template-columns: repeat(2, 1fr);
     }
-    &__description{
+    &__description {
       display: block;
       text-align: center;
       color: #fff;
-      font-size: .875rem;
+      font-size: 0.875rem;
     }
   }
 
-  .footer{
+  .footer {
     background: none;
-    &__container{
+    &__container {
       background-color: $mainColor-darken;
       padding: 3rem 0;
-      border-radius: .5rem;
+      border-radius: 0.5rem;
     }
   }
 }
 
-@media screen and (min-width: 1024px){
-  body{
+@media screen and (min-width: 1024px) {
+  body {
     padding-left: 25%;
   }
-  .header{
+  .header {
     width: 0;
   }
-  .nav{
-    &__toggle, &__logo, &__close{
+  .nav {
+    &__toggle,
+    &__logo,
+    &__close {
       display: none;
     }
-    &__menu{
+    &__menu {
       left: 0;
     }
   }
-  .section{
+  .section {
     padding: 3rem 0 2rem;
   }
-  .bd-grid{
+  .bd-grid {
     margin: 0 auto;
   }
-  .about__data{
+  .about__data {
     text-align: left;
   }
 }
